@@ -36,5 +36,5 @@ write(guess("insulin.gro.bz2"), mol)
 
 ## See also
 
-* [Formats](https:://github.com/ofisette/Formats.jl):
+* [Formats](https://github.com/ofisette/Formats.jl):
   Read, write and detect formatted data, based on MIME types (dependency).
