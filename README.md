@@ -30,8 +30,8 @@ using FormatCodecs
 You can then read/write data using the functions provided by Formats:
 
 ```julia
-mol = read(guess("insulin.pdb.gz"))
-write(guess("insulin.gro.bz2"), mol)
+mol = read(infer("insulin.pdb.gz"))
+write(infer("insulin.gro.bz2"), mol)
 ```
 
 ## See also
